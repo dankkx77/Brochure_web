@@ -1,0 +1,60 @@
+/* Global Styles for your webpage */
+body {
+    position: relative; /* crucial for positioning children elements absolutely within body */
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Pure white background */
+    color: #333;
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #495057;
+}
+
+/* Style your links */
+a {
+    display: inline-block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background-color: #337ab7;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    background-color: #286090;
+    transform: translateY(-3px);
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    a {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
+
+/* Logo styling in the top-right corner */
+.logo-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logo-container img {
+    height: 50px; /* adjust as desired */
+    width: auto; /* maintain image aspect ratio */
+}
+
